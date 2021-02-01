@@ -1,7 +1,7 @@
 # r-service
 
 * _Build_ da imagem: ( no diretório do Dockerfile ) 
-> docker build -t r-service:latest .
+> docker build -t r-service:latest . # Não se esqueça do "." no final do comando, ele indica que é o diretório atual.
 
 * _Run container_: 
 > docker rm -f r-service >/dev/null 2>&1; \
